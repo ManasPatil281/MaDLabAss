@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-merged_res-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-merged_res-40:\\drawable_circle_indicator.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-main-42:\\drawable\\circle_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-merged_res-40:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-main-42:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.smartreminderapp-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "com.example.smartreminderapp-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-merged_res-40:\\layout_activity_add_reminder.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-main-42:\\layout\\activity_add_reminder.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-merged_res-40:\\layout_activity_view_reminders.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-main-42:\\layout\\activity_view_reminders.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-merged_res-40:\\layout_item_reminder.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.2\\com.example.smartreminderapp-main-42:\\layout\\item_reminder.xml"
+    }
+]

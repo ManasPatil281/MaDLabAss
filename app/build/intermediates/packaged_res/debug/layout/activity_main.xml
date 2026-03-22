@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5FA">
+
+    <!-- Top Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#6C63FF"
+        android:padding="32dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📋"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Reminder"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll No: 41 | Never miss a task again!"
+            android:textColor="#D4D0FF"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+    <!-- Content Area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- Info Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome!"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manage your reminders with location tracking.\nDatabase: ReminderDB_41\nBackground check: Every 10 minutes"
+                    android:textSize="14sp"
+                    android:textColor="#6B7280"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Add Reminder Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddReminder"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="➕  Add Reminder"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            app:cornerRadius="14dp"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- View Reminders Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewReminders"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="📄  View Reminders"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            app:cornerRadius="14dp"
+            android:backgroundTint="#03DAC6"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Start Background Service Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartService"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="⚙️  Start Background Service"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            app:cornerRadius="14dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeColor="#6C63FF"
+            android:textColor="#6C63FF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Test Notification Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTestNotification"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="🔔  Test Notification Now"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            app:cornerRadius="14dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="#EF4444" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="light_bg">#F5F5FA</color>
+    <color name="priority_high">#EF4444</color>
+    <color name="priority_low">#10B981</color>
+    <color name="priority_medium">#F59E0B</color>
+    <color name="purple_dark">#5A52D5</color>
+    <color name="purple_primary">#6C63FF</color>
+    <color name="teal_accent">#03DAC6</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Smart Reminder App</string>
+    <style name="Theme.SmartReminderApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#6C63FF</item>
+        <item name="colorPrimaryVariant">#5A52D5</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">#F5F5FA</item>
+    </style>
+</resources>
